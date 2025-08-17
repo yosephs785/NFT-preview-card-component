@@ -1,0 +1,83 @@
+body{
+    background-color: #0d192b;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 330px;
+    height: 550px;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img1{
+    width:290px;
+    height:290px;
+    border-radius: 10px;
+}
+h3 {
+    font-family: Outfit, sans-serif;
+    color:white;
+    margin-right: 120px;
+}
+p{
+    font-family: Outfit, sans-serif;
+    color:hsl(228, 12%, 48%);
+    margin-right: 25px;
+    margin-top: 0;
+}
+.img2 {
+    width:12px;
+    height: 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 260px;
+}
+.P2{
+    font-family: Outfit, sans-serif;
+    color :aqua;
+    margin-right: 160px;
+    margin-top: -18px; /* negative moves it UP */
+    margin-bottom: -2px; /* negative moves it UP */
+}
+.img3 {
+    display: flex;
+    top: 30px;
+    margin-top: -17px; /* negative value moves it UP */
+    margin-left: 113px;
+}
+.p3{
+    white-space: nowrap; /* keeps text in one line */
+    margin-top: -20px; /* negative moves it UP */
+    margin-left: 237px;
+}
+hr{
+    border: none;            /* removes default border */
+    height: 2px;             /* thickness */
+    background-color: hsl(228, 12%, 48%); /* line color */
+    width: 80%;              /* line length */
+    margin: 10px auto;       /* center it */
+}
+.img4{
+    width:50px;
+    height:50px;
+    margin-right: 220px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.p4{
+    margin-left: 50px;
+    margin-top: -35px; /* negative moves it UP */
+    background: linear-gradient(to right, hsl(228, 12%, 48%) 50%, white 50%);
+    -webkit-background-clip: text;   /* applies gradient to text only */
+    -webkit-text-fill-color: transparent; /* makes background show through text */
+}
+
